@@ -93,8 +93,12 @@ public class Agenda {
     public static void main(String[] args) throws ParseException {
         Agenda agenda = new Agenda();
         agenda.executar();
-        agenda.salvarValores();
-        agenda.executar();
+        for(int i=0; i<100; i++){
+      System.out.println("Número: "+i);
+    }
+        
+        //agenda.salvarValores();
+        //agenda.executar();
         
     }
 
